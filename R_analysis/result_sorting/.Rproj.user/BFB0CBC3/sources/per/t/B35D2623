@@ -1,0 +1,32 @@
+{
+    "id": "B35D2623",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1649746427847.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "expression": "abdom",
+        "caption": "abdom",
+        "totalObservations": 610,
+        "displayedObservations": 610,
+        "variables": 2,
+        "cacheKey": "FD6EE2F4",
+        "object": "abdom",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=abdom&cache_key=FD6EE2F4&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 7431566254637471092,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1649746427847,
+    "read_only": false,
+    "read_only_alternatives": []
+}

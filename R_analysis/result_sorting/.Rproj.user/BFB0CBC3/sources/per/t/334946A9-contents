@@ -1,0 +1,29 @@
+# install.packages("gamlss") # GAMLSS是一个能够估计模型中任意参数的统计模型
+library(gamlss)
+library(ggplot2) # ggplot
+
+data(abdom)
+ggplot(abdom, aes(x=x, y=y)) +
+  geom_point(shape = 1, color = "#0052bb", size = 1.5) + 
+  ggtitle("The Dutch boys data") +
+  xlab("age") + ylab("head circumference") +
+  theme_bw()
+m0<-lms(y,x,families=c("BCCGo","BCPEo","BCTo"),data=abdom,
+        k=3,calibration=F, trans.x=T)
+m0$family 
+m0$power
+m0$call
+edfAll(m0)
+plot(m0)
+wp(m0)
+
+abd0 <- gamlss(y~x, data=abdom, family=NO) 
+plot(abd0)
+abd1 <- gamlss(y~cs(x,3), sigma.formula=~cs(x,3), data=abdom, family=NO) 
+plot(abd1)
+abd2 <- gamlss(y~cs(x,3), sigma.formula=~cs(x,3), nu.formula=~1, tau.formula=~1, data=abdom, family=BCT) 
+plot(abd2)
+
+abd3 <- gamlss(formula = y ~ pb(x), sigma.formula = ~pb(x), nu.formula = ~pb(x), 
+       , tau.formula = ~pb(x), family = "BCTo", data = abdom)
+plot(abd3)

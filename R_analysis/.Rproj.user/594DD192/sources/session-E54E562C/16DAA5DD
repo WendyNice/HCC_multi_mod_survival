@@ -1,0 +1,27 @@
+{
+    "id": "16DAA5DD",
+    "path": "D:/Haixia/SYSU_Cancer_HCC/result_230116/compare_dl_fusion.R",
+    "project_path": "compare_dl_fusion.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1673855994626.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "168,0",
+        "scrollLine": "148"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1673857742,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1673857742458,
+    "read_only": false,
+    "read_only_alternatives": []
+}

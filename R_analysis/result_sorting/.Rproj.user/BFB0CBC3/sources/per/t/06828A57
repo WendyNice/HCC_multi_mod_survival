@@ -1,0 +1,25 @@
+{
+    "id": "06828A57",
+    "path": "D:/Data_analysis/Survival_analysis/SYSU_Cancer_HCC/result_sorting/feature_selection.R",
+    "project_path": "feature_selection.R",
+    "type": "r_source",
+    "hash": "1911995328",
+    "contents": "",
+    "dirty": false,
+    "created": 1647239862955.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "25,21",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1647241425,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1647241425143,
+    "read_only": false,
+    "read_only_alternatives": []
+}

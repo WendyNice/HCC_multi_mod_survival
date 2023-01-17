@@ -1,0 +1,27 @@
+{
+    "id": "DBDB0125",
+    "path": "D:/Haixia/SYSU_Cancer_HCC/result_230116/clin_fea_select.R",
+    "project_path": "clin_fea_select.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1673856692504.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "38,0",
+        "scrollLine": "15"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1673858787,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1673862350920,
+    "read_only": false,
+    "read_only_alternatives": []
+}
